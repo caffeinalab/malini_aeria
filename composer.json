@@ -1,0 +1,25 @@
+{
+  "name": "malini/malini_aeria",
+  "description": "Aeria decorator for Malini",
+  "authors": [
+      {
+          "name": "Andrea Longo",
+          "email": "andrea.longo@caffeina.com",
+          "homepage": "http://caffeina.com"
+      }
+  ],
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {
+      "php": ">=7.0.0"
+  },
+  "autoload": {
+      "psr-4": {
+          "MaliniAeria\\": "./MaliniAeria/"
+      },
+      "files": [
+          "./MaliniAeria/helpers.php"
+      ]
+  }
+}
