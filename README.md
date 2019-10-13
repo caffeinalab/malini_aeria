@@ -16,7 +16,8 @@ malini_post()->decorate('aeria');
 
 Accepted options:
 - `filter`: the attributes we want to retrieve; [see filter option syntax](other/filter-option-syntax);
-- `automerge_fields`: if `false` specifies that the attributes retrieved will be nested inside an `aeria_fields` key; otherwise they will be added at the root level (defaults to `false`).
+- `automerge_fields`: if `false` specifies that the attributes retrieved will be nested inside an `aeria_fields` key; otherwise they will be added at the root level (defaults to `false`);
+- `automerge_level`: if `automerge_fields` is `true`, we can also specify the wanted `automerge_level`; if it's `1`, the Aeria fields will be grouped through their respective `metabox_id`; if it's `2`, they will be added at the root level, ignoring the `metabox_id`; no other values are allowed; `automerge_level` is ignored if `automerge_fields` is `false` (defaults to `1`).
 
 ## Accessors:
 
