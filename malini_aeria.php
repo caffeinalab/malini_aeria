@@ -11,7 +11,7 @@
  * Plugin Name: Malini Aeria
  * Plugin URI:  https://github.com/caffeinalab/malini_aeria
  * Description: Malini Aeria is a Malini plugin to quickly decorate content with Aeria defined data.
- * Version:     0.1.1
+ * Version:     0.1.2
  * Author:      Caffeina
  * Author URI:  https://caffeina.com
  * Text Domain: malini
